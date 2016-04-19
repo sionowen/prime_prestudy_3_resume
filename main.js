@@ -1,6 +1,6 @@
 $(document).ready( function() {
 	$('button').on('click', function(){
-		$('button').addClass('hidden');
+		$('button').remove();
 		$('.resume').removeClass('hidden');
 	});
 });
